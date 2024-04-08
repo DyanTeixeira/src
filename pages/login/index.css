@@ -1,0 +1,98 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #dbebfc, #72a5e0);
+
+}
+
+.login-form {
+  width: 320px;
+  padding: 40px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border-radius: 8px;
+  ;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.418);
+}
+
+.login-header {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f5f6f8;
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #f5f6f8;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 0px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+  transition: border-color 0.3s ease;
+  background-color: #f5f6f8;
+  font-weight: bold;
+}
+
+.senha-input {
+  position: relative;
+}
+
+.icon-eye {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon-eye:hover {
+  color: #007bff;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #f5f6f8, #ffffff);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+    background: linear-gradient(to right, #e2e8f3, #dce0f5);
+    scale: 1.01;
+}
+
+.forgot-password {
+  text-align: center;
+  
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

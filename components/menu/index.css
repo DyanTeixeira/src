@@ -1,0 +1,34 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #007bff, #0056b3);;
+}
+
+li {
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li:first-child {
+    margin-left: 25px;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 15px 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-image:linear-gradient(to right, #051c35, #091624) ;
+}
+
+li:last-child{
+    float: right;
+    margin-right: 25px;
+}
